@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:500,700,900');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html, body {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background: url('http://res.cloudinary.com/do52uumgy/image/upload/v1513291571/mark-rabe-167735_iedxcm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    position: relative;
+}
+
+section.hero {
+    color: #FA8323;
+}
+
+header {
+    position: relative;
+}
+
+header p {
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.quote__container {
+    border-radius: 3px;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    background-color: #fff;
+    margin: 0 2em;
+    padding: 2em;
+    text-align: center;
+    /* max-height: 420px;
+    overflow-y: scroll;
+    overflow-x: hidden; */
+} 
+
+i {
+    margin: 0 auto;
+}
+
+.buttons {
+    width:450px;
+    margin:auto;
+    display:block;
+}
+
+.button {
+    height:38px;
+    border:none;
+    border-radius:3px;
+    color:#fff;
+    background-color:#333;
+    outline:none;
+    font-size:0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top:30px;
+    opacity:1;
+    cursor:pointer;
+}
+
+.button:hover {
+    opacity:0.9;
+}
+
+.quote__container--text {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+#tweet-quote {
+    float:left;
+    padding:0px;
+    padding-top:8px;
+    text-align:center;
+    font-size:1.2em;
+    margin-right:5px;
+    height:30px;
+    width:40px;
+}
+  
+.author span{
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .quote__container {
+        width: 30em;
+        margin: 10em auto;
+    }
+
+    header p {
+        font-size: 2em;
+    }
+
+    .quote__container--text {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #new-quote {
+        margin-right: 15em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .quote__container {
+        max-height: 25em;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (max-height: 415px) {
+    .quote__container {
+        max-height: 8em;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-top: 4em;
+    }
+}
+
+
