@@ -6,7 +6,7 @@
 html, body {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     background-color: black;
     background: url('https://res.cloudinary.com/do52uumgy/image/upload/v1513291571/mark-rabe-167735_iedxcm.jpg');
